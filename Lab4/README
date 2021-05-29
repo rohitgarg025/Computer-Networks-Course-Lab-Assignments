@@ -1,0 +1,9 @@
+Instructions to Compile and Run the code to produce desired output:
+
+1. Compile server File {gcc -o server server.c}
+2. Compile client File {gcc -o client client.c}
+3. Run the server and client file {./server  ./client}
+4. Send message from either terminal to the other.
+5. Type exit to exit the client or server program.
+
+If a message is sent when the other program is terminated, the program shows a warning and waits till another run of the program is found to start communicating again.
